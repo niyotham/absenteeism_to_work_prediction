@@ -8,7 +8,7 @@ from sqlalchemy import create_engine
 import pandas as pd
 
 PREDICT_SCHEMA = 'mysql_schema.sql'
-engine = create_engine('mysql+pymysql://root:tham1984%@localhost:3306/predicted_outputs')
+engine = create_engine('mysql+pymysql://{username}:{password}@localhost:3306/predicted_outputs')
 df_path= 'df_new_obs.csv'
 df=pd.read_csv(df_path)
 
