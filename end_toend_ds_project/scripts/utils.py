@@ -1,5 +1,5 @@
 
 var= {'database':'predicted_outputs',
-       'user' :'root', 
-       'password' :'tham1984%'
+       'user' :'username', 
+       'password' :'your password'
        }
